@@ -11,7 +11,7 @@ namespace _3._3
                 string a = System.IO.File.ReadAllText(@"c:\input.txt");
                 char[] b = a.ToCharArray();
                 int n = 0;
-                char[] golosni = { 'а', 'о', 'у', 'ю', 'я' ,'е' ,'є','и','і',
+                char[] golosni = { 'а', 'о', 'у', 'ю', 'я' ,'е ' ,'є','и','і',
                 'ї'};
                 for (int i = 0; i < b.Length; i++)
                 {
